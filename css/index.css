@@ -233,6 +233,7 @@ header .service-nav {
  * *******************
  */
 
+
 /* Tablet view */
 /* @media(max-width: 800px) {
   
@@ -253,7 +254,8 @@ header .service-nav {
   header nav a {
     width:100%;
     padding: 2% 0;
-    font-size:20px;
+    font-size:2rem;
+    color: gray;
     border-top:1px solid black;
   }
   header nav a:last-child {
@@ -262,6 +264,17 @@ header .service-nav {
   .logo {
     width:25%;
   }
+
+  /* Section 1 content */
+  .one {
+    justify-content:center;
+  }
+  .innovate button {
+    font-size:1rem;
+    border:1px solid black;
+    background-color:white;
+  }
+
 
   /* hide top content section image */
   .code-img {
