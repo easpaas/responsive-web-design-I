@@ -137,6 +137,95 @@ address p{
 }
 
 
+/* 
+ * **************************
+ * Services.html styles below 
+ * **************************
+*/
+
+
+/* Header section styles */
+header .service-nav {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.service-nav div{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+
+/* Services section styles */
+.services-header-img{
+	width:100%
+}
+.service-section {
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.service-section h1 {
+	font-size:25px;
+}
+
+
+/* Middle section styles */
+.middle-section{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.mid-container {
+	border:1px solid black;
+	background-color:lightgray;
+	width:46%;
+	margin-bottom:25px;
+	margin-top:25px;
+	padding:25px;
+}
+.mid-container p {
+	margin-bottom:15px;
+}
+.mid-container button{
+	text-align:center;
+	border-radius:8px;
+	border-color:black;
+}
+
+
+/* Facts section styles */
+.facts-section {
+	display:flex;
+	margin-bottom:50px;
+	margin-top:40px;
+}
+.facts-section div {
+	width:46%;
+	margin-right:65px;
+}
+.facts-section p {
+	margin-bottom:30px;
+}
+.list-item{
+	margin-bottom:10px;
+}
+
+
+/* Border styles */
+.border1{
+	border:1px solid gray;
+	margin-top:25px; 
+	margin-bottom:25px;
+}
+.border2{
+	border:1px solid black;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
 
 /*
  * *******************
@@ -287,4 +376,6 @@ address p{
     margin-top:5%;
   }
 }
+
+
 
