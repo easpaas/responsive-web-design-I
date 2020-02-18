@@ -152,11 +152,11 @@ header .service-nav {
 	margin-top:10px;
 	margin-bottom:10px;
 }
-.service-nav div{
+/* .service-nav div{
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
-}
+} */
 
 
 /* Services section styles */
@@ -358,6 +358,11 @@ header .service-nav {
   .two {
     width:100%;
 
+  }
+
+  /* Services mid section */
+  .middle-section {
+    /* flex- */
   }
 
   /* Tablet container divs */
